@@ -10,6 +10,7 @@ import Support from './landing_page/support/SupportPage'
 import Navbar from './landing_page/Navbar'
 import Footer from './landing_page/Footer'
 import Products from './landing_page/products/Universe'
+import NotFound from './landing_page/NotFound'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -21,6 +22,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/pricing' element={<Pricing/>} />
       <Route path='/product' element={<Products/>} />
       <Route path='/support' element={<Support/>} />
+      <Route path='*' element={<NotFound/>} />
     </Routes>
   <Footer/>
   </BrowserRouter>
