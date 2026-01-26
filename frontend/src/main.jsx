@@ -9,7 +9,7 @@ import Pricing from './landing_page/pricing/PricingPage'
 import Support from './landing_page/support/SupportPage'
 import Navbar from './landing_page/Navbar'
 import Footer from './landing_page/Footer'
-import Products from './landing_page/products/Universe'
+import Products from './landing_page/products/ProductsPage'
 import NotFound from './landing_page/NotFound'
 
 createRoot(document.getElementById('root')).render(
