@@ -31,7 +31,7 @@ export const options = {
   },
 };
 
-export const VerticalGraph = () => {
+export const VerticalGraph = ({ data }) => {
   return (
     <Bar options={options} data={data} />
   )
