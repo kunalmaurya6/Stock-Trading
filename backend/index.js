@@ -1,5 +1,4 @@
-require('dotenv').config({ path: __dirname + '/.gitignore/.env' });
-
+require('dotenv').config();
 
 const express = require("express")
 const mongoose = require("mongoose")
